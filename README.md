@@ -6,7 +6,7 @@ conda env create -f gym-adserver.yml
 
 # Git clone and move current directry
 ```
-git clone 
+git clone git@github.com:YorkNishi999/cs839_rl_project_for_submission.git
 cd /path/to/repo/gym-adserver
 ```
 
@@ -20,7 +20,7 @@ outdir = './outputs/{agent}.txt' # for comparison test
 ```
 python comparison_test.py
 ```
-3. 
+3. You can see output images in `./outputs/imgs`
 
 # sensitivity analysis
 ## ucb1
@@ -33,6 +33,8 @@ outdir = './outputs/sensitivity/ucb1.txt' # for sensitivity test
 ```
 python sensitivity_ucb.py
 ```
+3. You can see output images in `./outputs/sensitivity/`
+
 
 ## Gradient Bandit
 1. Check below.
@@ -44,6 +46,7 @@ outdir = './outputs/sensitivity/softmax.txt' # sensitivity test
 ```
 python sensitivity_softmax.py
 ```
+3. You can see output images in `./outputs/sensitivity/`
 
 ## egreedy
 1. Check below.
@@ -55,3 +58,5 @@ outdir = './outputs/sensitivity/egreedy.txt' # sensitivity
 ```
 python sensitivity_egreedy.py
 ```
+3. You can see output images in `./outputs/sensitivity/`
+
