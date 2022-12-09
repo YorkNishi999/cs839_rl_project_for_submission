@@ -12,6 +12,7 @@ cd /path/to/repo
 ```
 conda env create -f gym-adserver.yml
 conda activate gym-adserver
+pip install gym-adserver
 ```
 
 # Comparison analysis
