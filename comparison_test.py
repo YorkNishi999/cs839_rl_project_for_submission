@@ -27,7 +27,7 @@ if "../" not in sys.path:
 
 ADNUM = 10
 EPOCHS = 10000
-ITERATION = 100
+ITERATION = 2
 
 # thompson
 outdir = './outputs/thompson.txt'
@@ -117,7 +117,7 @@ ax1.set_xlabel('Episode')
 ax1.set_ylabel('Average Rewards')
 
 plt.subplots_adjust(left=0.1, right=0.9, bottom=0.1, top=0.95)
-fig.savefig('./outputs/imgs/epoch' + str(EPOCHS) + '_arms' + str(ADNUM) + '_comparison.png')
+fig.savefig('./epoch' + str(EPOCHS) + '_arms' + str(ADNUM) + '_iterations' + str(ITERATION) + '_comparison.png')
 
 fig, ax1 = plt.subplots()
 ax1.set_ylim([0,0.2])
@@ -135,4 +135,4 @@ ax1.set_xlabel('Episode')
 ax1.set_ylabel('Std for Average Rewards')
 
 plt.subplots_adjust(left=0.15, right=0.9, bottom=0.1, top=0.95)
-fig.savefig('./outputs/imgs/epoch' + str(EPOCHS) + '_arms' + str(ADNUM) + '_comparison_std.png')
+fig.savefig('./epoch' + str(EPOCHS) + '_arms' + str(ADNUM) + '_iterations' + str(ITERATION) +  '_comparison_std.png')
