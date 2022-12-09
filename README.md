@@ -1,13 +1,13 @@
-# Build environment
-
-```
-conda env create -f gym-adserver.yml
-```
-
 # Git clone and move current directry
 ```
 git clone git@github.com:YorkNishi999/cs839_rl_project_for_submission.git
 cd /path/to/repo/gym-adserver
+```
+
+# Build environment
+
+```
+conda env create -f gym-adserver.yml
 ```
 
 # Comparison analysis
